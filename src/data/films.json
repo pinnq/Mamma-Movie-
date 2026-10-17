@@ -1,0 +1,6392 @@
+[
+  {
+    "id": "mm-001",
+    "title": "Mad Max: Fury Road",
+    "apiTitle": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 120,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-002",
+    "title": "Stirb Langsam",
+    "apiTitle": "Die Hard",
+    "year": 1988,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 132,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-003",
+    "title": "Jumanji: Willkommen im Dschungel",
+    "apiTitle": "Jumanji: Welcome to the Jungle",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 119,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-004",
+    "title": "The Dark Knight",
+    "apiTitle": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 152,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-005",
+    "title": "John Wick",
+    "apiTitle": "John Wick",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 101,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-006",
+    "title": "The Terminator",
+    "apiTitle": "The Terminator",
+    "year": 1984,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 107,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-007",
+    "title": "Terminator 2: Judgment Day",
+    "apiTitle": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 137,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-008",
+    "title": "Raiders of the Lost Ark",
+    "apiTitle": "Raiders of the Lost Ark",
+    "year": 1981,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "duration": 115,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-009",
+    "title": "Mission: Impossible – Fallout",
+    "apiTitle": "Mission: Impossible - Fallout",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "duration": 147,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-010",
+    "title": "The Matrix",
+    "apiTitle": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 136,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-011",
+    "title": "Gladiator",
+    "apiTitle": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "duration": 155,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-012",
+    "title": "The Bourne Identity",
+    "apiTitle": "The Bourne Identity",
+    "year": 2002,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 119,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-013",
+    "title": "Casino Royale",
+    "apiTitle": "Casino Royale",
+    "year": 2006,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "duration": 144,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-014",
+    "title": "Edge of Tomorrow",
+    "apiTitle": "Edge of Tomorrow",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 113,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-015",
+    "title": "Speed",
+    "apiTitle": "Speed",
+    "year": 1994,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 116,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-016",
+    "title": "Kill Bill: Volume 1",
+    "apiTitle": "Kill Bill: Vol. 1",
+    "year": 2003,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 111,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-017",
+    "title": "Top Gun: Maverick",
+    "apiTitle": "Top Gun: Maverick",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-018",
+    "title": "Wonder Woman",
+    "apiTitle": "Wonder Woman",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 141,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-019",
+    "title": "Spider-Man: Homecoming",
+    "apiTitle": "Spider-Man: Homecoming",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 133,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-020",
+    "title": "Dredd",
+    "apiTitle": "Dredd",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 95,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-021",
+    "title": "Paddington",
+    "apiTitle": "Paddington",
+    "year": 2014,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 95,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-022",
+    "title": "Little Miss Sunshine",
+    "apiTitle": "Little Miss Sunshine",
+    "year": 2006,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 101,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-023",
+    "title": "Die Nackte Kanone",
+    "apiTitle": "The Naked Gun: From the Files of Police Squad!",
+    "year": 1988,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "duration": 85,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-024",
+    "title": "Groundhog Day",
+    "apiTitle": "Groundhog Day",
+    "year": 1993,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Fantasy"
+    ],
+    "duration": 101,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-025",
+    "title": "Airplane!",
+    "apiTitle": "Airplane!",
+    "year": 1980,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 88,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-026",
+    "title": "Some Like It Hot",
+    "apiTitle": "Some Like It Hot",
+    "year": 1959,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 121,
+    "moods": [
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-027",
+    "title": "Bridesmaids",
+    "apiTitle": "Bridesmaids",
+    "year": 2011,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 125,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-028",
+    "title": "Superbad",
+    "apiTitle": "Superbad",
+    "year": 2007,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 113,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-029",
+    "title": "The Grand Budapest Hotel",
+    "apiTitle": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 99,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-030",
+    "title": "The Big Lebowski",
+    "apiTitle": "The Big Lebowski",
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "duration": 117,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-031",
+    "title": "Hot Fuzz",
+    "apiTitle": "Hot Fuzz",
+    "year": 2007,
+    "genres": [
+      "Comedy",
+      "Action",
+      "Mystery"
+    ],
+    "duration": 121,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-032",
+    "title": "Ferris Bueller's Day Off",
+    "apiTitle": "Ferris Bueller's Day Off",
+    "year": 1986,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 103,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-033",
+    "title": "Mean Girls",
+    "apiTitle": "Mean Girls",
+    "year": 2004,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 97,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-034",
+    "title": "My Cousin Vinny",
+    "apiTitle": "My Cousin Vinny",
+    "year": 1992,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "duration": 120,
+    "moods": [
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-035",
+    "title": "The Devil Wears Prada",
+    "apiTitle": "The Devil Wears Prada",
+    "year": 2006,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 109,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-036",
+    "title": "School of Rock",
+    "apiTitle": "School of Rock",
+    "year": 2003,
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "duration": 109,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-037",
+    "title": "The Truman Show",
+    "apiTitle": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Science-Fiction"
+    ],
+    "duration": 103,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-038",
+    "title": "Jojo Rabbit",
+    "apiTitle": "Jojo Rabbit",
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "duration": 108,
+    "moods": [
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-039",
+    "title": "The Nice Guys",
+    "apiTitle": "The Nice Guys",
+    "year": 2016,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Action"
+    ],
+    "duration": 116,
+    "moods": [
+      "lustig",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-040",
+    "title": "Palm Springs",
+    "apiTitle": "Palm Springs",
+    "year": 2020,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Science-Fiction"
+    ],
+    "duration": 90,
+    "moods": [
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-041",
+    "title": "Forrest Gump",
+    "apiTitle": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 142,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-042",
+    "title": "Das Streben nach Glück",
+    "apiTitle": "The Pursuit of Happyness",
+    "year": 2006,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 117,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-043",
+    "title": "Ziemlich beste Freunde",
+    "apiTitle": "The Intouchables",
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "duration": 112,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-044",
+    "title": "The Shawshank Redemption",
+    "apiTitle": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "duration": 142,
+    "moods": [
+      "traurig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-045",
+    "title": "The Godfather",
+    "apiTitle": "The Godfather",
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "duration": 175,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-046",
+    "title": "12 Angry Men",
+    "apiTitle": "12 Angry Men",
+    "year": 1957,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "duration": 96,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-047",
+    "title": "Moonlight",
+    "apiTitle": "Moonlight",
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 111,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-048",
+    "title": "Lady Bird",
+    "apiTitle": "Lady Bird",
+    "year": 2017,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "duration": 94,
+    "moods": [
+      "traurig",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-049",
+    "title": "Whiplash",
+    "apiTitle": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "duration": 107,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-050",
+    "title": "The Social Network",
+    "apiTitle": "The Social Network",
+    "year": 2010,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 120,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-051",
+    "title": "A Beautiful Mind",
+    "apiTitle": "A Beautiful Mind",
+    "year": 2001,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 135,
+    "moods": [
+      "traurig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-052",
+    "title": "The Green Mile",
+    "apiTitle": "The Green Mile",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Crime"
+    ],
+    "duration": 189,
+    "moods": [
+      "traurig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-053",
+    "title": "Good Will Hunting",
+    "apiTitle": "Good Will Hunting",
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 126,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-054",
+    "title": "The Whale",
+    "apiTitle": "The Whale",
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 117,
+    "moods": [
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-055",
+    "title": "Manchester by the Sea",
+    "apiTitle": "Manchester by the Sea",
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 137,
+    "moods": [
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-056",
+    "title": "The Pianist",
+    "apiTitle": "The Pianist",
+    "year": 2002,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "duration": 150,
+    "moods": [
+      "traurig",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-057",
+    "title": "Spotlight",
+    "apiTitle": "Spotlight",
+    "year": 2015,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "duration": 129,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-058",
+    "title": "Room",
+    "apiTitle": "Room",
+    "year": 2015,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 118,
+    "moods": [
+      "traurig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-059",
+    "title": "The Father",
+    "apiTitle": "The Father",
+    "year": 2020,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 97,
+    "moods": [
+      "traurig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-060",
+    "title": "The Holdovers",
+    "apiTitle": "The Holdovers",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "duration": 133,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-061",
+    "title": "Get Out",
+    "apiTitle": "Get Out",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 104,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-062",
+    "title": "A Quiet Place",
+    "apiTitle": "A Quiet Place",
+    "year": 2018,
+    "genres": [
+      "Horror",
+      "Science-Fiction",
+      "Drama"
+    ],
+    "duration": 90,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-063",
+    "title": "Coraline",
+    "apiTitle": "Coraline",
+    "year": 2009,
+    "genres": [
+      "Horror",
+      "Animation",
+      "Fantasy"
+    ],
+    "duration": 100,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-064",
+    "title": "The Exorcist",
+    "apiTitle": "The Exorcist",
+    "year": 1973,
+    "genres": [
+      "Horror"
+    ],
+    "duration": 122,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-065",
+    "title": "The Shining",
+    "apiTitle": "The Shining",
+    "year": 1980,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "duration": 146,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-066",
+    "title": "Halloween",
+    "apiTitle": "Halloween",
+    "year": 1978,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 91,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-067",
+    "title": "The Fly",
+    "apiTitle": "The Fly",
+    "year": 1986,
+    "genres": [
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 96,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-068",
+    "title": "Scream",
+    "apiTitle": "Scream",
+    "year": 1996,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "duration": 111,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-069",
+    "title": "Hereditary",
+    "apiTitle": "Hereditary",
+    "year": 2018,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 127,
+    "moods": [
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-070",
+    "title": "The Conjuring",
+    "apiTitle": "The Conjuring",
+    "year": 2013,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 112,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-071",
+    "title": "The Babadook",
+    "apiTitle": "The Babadook",
+    "year": 2014,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "duration": 94,
+    "moods": [
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-072",
+    "title": "It Follows",
+    "apiTitle": "It Follows",
+    "year": 2014,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "duration": 100,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-073",
+    "title": "The Witch",
+    "apiTitle": "The Witch",
+    "year": 2015,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Fantasy"
+    ],
+    "duration": 92,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-074",
+    "title": "Train to Busan",
+    "apiTitle": "Train to Busan",
+    "year": 2016,
+    "genres": [
+      "Horror",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 118,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-075",
+    "title": "The Invisible Man",
+    "apiTitle": "The Invisible Man",
+    "year": 2020,
+    "genres": [
+      "Horror",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-076",
+    "title": "Talk to Me",
+    "apiTitle": "Talk to Me",
+    "year": 2022,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 95,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-077",
+    "title": "The Ring",
+    "apiTitle": "The Ring",
+    "year": 2002,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "duration": 115,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-078",
+    "title": "Jaws",
+    "apiTitle": "Jaws",
+    "year": 1975,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-079",
+    "title": "The Descent",
+    "apiTitle": "The Descent",
+    "year": 2005,
+    "genres": [
+      "Horror",
+      "Adventure"
+    ],
+    "duration": 99,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-080",
+    "title": "Tucker and Dale vs. Evil",
+    "apiTitle": "Tucker and Dale vs. Evil",
+    "year": 2010,
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "duration": 89,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-081",
+    "title": "Knives Out",
+    "apiTitle": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Comedy"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-082",
+    "title": "Prisoners",
+    "apiTitle": "Prisoners",
+    "year": 2013,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "duration": 153,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-083",
+    "title": "Gone Girl",
+    "apiTitle": "Gone Girl",
+    "year": 2014,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 149,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-084",
+    "title": "Shutter Island",
+    "apiTitle": "Shutter Island",
+    "year": 2010,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Drama"
+    ],
+    "duration": 138,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-085",
+    "title": "The Silence of the Lambs",
+    "apiTitle": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 119,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-086",
+    "title": "Zodiac",
+    "apiTitle": "Zodiac",
+    "year": 2007,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 157,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-087",
+    "title": "Nightcrawler",
+    "apiTitle": "Nightcrawler",
+    "year": 2014,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 118,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-088",
+    "title": "The Prestige",
+    "apiTitle": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Science-Fiction"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-089",
+    "title": "Memento",
+    "apiTitle": "Memento",
+    "year": 2000,
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "duration": 113,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-090",
+    "title": "The Usual Suspects",
+    "apiTitle": "The Usual Suspects",
+    "year": 1995,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "duration": 106,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-091",
+    "title": "No Country for Old Men",
+    "apiTitle": "No Country for Old Men",
+    "year": 2007,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 122,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-092",
+    "title": "The Fugitive",
+    "apiTitle": "The Fugitive",
+    "year": 1993,
+    "genres": [
+      "Thriller",
+      "Action",
+      "Crime"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-093",
+    "title": "The Tourist",
+    "apiTitle": "The Tourist",
+    "year": 2010,
+    "genres": [
+      "Thriller",
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 103,
+    "moods": [
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-094",
+    "title": "Sicario",
+    "apiTitle": "Sicario",
+    "year": 2015,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Action"
+    ],
+    "duration": 121,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-095",
+    "title": "Argo",
+    "apiTitle": "Argo",
+    "year": 2012,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "History"
+    ],
+    "duration": 120,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-096",
+    "title": "The Departed",
+    "apiTitle": "The Departed",
+    "year": 2006,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 151,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-097",
+    "title": "Black Swan",
+    "apiTitle": "Black Swan",
+    "year": 2010,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Horror"
+    ],
+    "duration": 108,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-098",
+    "title": "The Talented Mr. Ripley",
+    "apiTitle": "The Talented Mr. Ripley",
+    "year": 1999,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 139,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-099",
+    "title": "The Bourne Ultimatum",
+    "apiTitle": "The Bourne Ultimatum",
+    "year": 2007,
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "duration": 115,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-100",
+    "title": "Source Code",
+    "apiTitle": "Source Code",
+    "year": 2011,
+    "genres": [
+      "Thriller",
+      "Science-Fiction",
+      "Action"
+    ],
+    "duration": 93,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-101",
+    "title": "Interstellar",
+    "apiTitle": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Adventure"
+    ],
+    "duration": 169,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-102",
+    "title": "Der Marsianer",
+    "apiTitle": "The Martian",
+    "year": 2015,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 144,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-103",
+    "title": "WALL-E",
+    "apiTitle": "WALL-E",
+    "year": 2008,
+    "genres": [
+      "Science-Fiction",
+      "Animation",
+      "Romance"
+    ],
+    "duration": 98,
+    "moods": [
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-104",
+    "title": "Arrival",
+    "apiTitle": "Arrival",
+    "year": 2016,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 116,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-105",
+    "title": "Blade Runner 2049",
+    "apiTitle": "Blade Runner 2049",
+    "year": 2017,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 164,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-106",
+    "title": "Back to the Future",
+    "apiTitle": "Back to the Future",
+    "year": 1985,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 116,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-107",
+    "title": "E.T. the Extra-Terrestrial",
+    "apiTitle": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 115,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-108",
+    "title": "The Fifth Element",
+    "apiTitle": "The Fifth Element",
+    "year": 1997,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 126,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-109",
+    "title": "Ex Machina",
+    "apiTitle": "Ex Machina",
+    "year": 2014,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 108,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-110",
+    "title": "District 9",
+    "apiTitle": "District 9",
+    "year": 2009,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Drama"
+    ],
+    "duration": 112,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-111",
+    "title": "Everything Everywhere All at Once",
+    "apiTitle": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 140,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-112",
+    "title": "Planet of the Apes",
+    "apiTitle": "Planet of the Apes",
+    "year": 1968,
+    "genres": [
+      "Science-Fiction",
+      "Adventure"
+    ],
+    "duration": 112,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-113",
+    "title": "2001: A Space Odyssey",
+    "apiTitle": "2001: A Space Odyssey",
+    "year": 1968,
+    "genres": [
+      "Science-Fiction",
+      "Drama"
+    ],
+    "duration": 149,
+    "moods": [
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-114",
+    "title": "The Iron Giant",
+    "apiTitle": "The Iron Giant",
+    "year": 1999,
+    "genres": [
+      "Science-Fiction",
+      "Animation",
+      "Adventure"
+    ],
+    "duration": 86,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-115",
+    "title": "Minority Report",
+    "apiTitle": "Minority Report",
+    "year": 2002,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 145,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-116",
+    "title": "Looper",
+    "apiTitle": "Looper",
+    "year": 2012,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 119,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-117",
+    "title": "Moon",
+    "apiTitle": "Moon",
+    "year": 2009,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 97,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-118",
+    "title": "Solaris",
+    "apiTitle": "Solaris",
+    "year": 1972,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "duration": 166,
+    "moods": [
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-119",
+    "title": "Rogue One: A Star Wars Story",
+    "apiTitle": "Rogue One: A Star Wars Story",
+    "year": 2016,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "duration": 133,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-120",
+    "title": "Star Trek II: The Wrath of Khan",
+    "apiTitle": "Star Trek II: The Wrath of Khan",
+    "year": 1982,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "duration": 113,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-121",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "apiTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 178,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-122",
+    "title": "The Lord of the Rings: The Two Towers",
+    "apiTitle": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 179,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-123",
+    "title": "The Lord of the Rings: The Return of the King",
+    "apiTitle": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 201,
+    "moods": [
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-124",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "apiTitle": "Harry Potter and the Prisoner of Azkaban",
+    "year": 2004,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 142,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-125",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "apiTitle": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 152,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-126",
+    "title": "The Princess Bride",
+    "apiTitle": "The Princess Bride",
+    "year": 1987,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 98,
+    "moods": [
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-127",
+    "title": "Pan's Labyrinth",
+    "apiTitle": "Pan's Labyrinth",
+    "year": 2006,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "War"
+    ],
+    "duration": 118,
+    "moods": [
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-128",
+    "title": "The Wizard of Oz",
+    "apiTitle": "The Wizard of Oz",
+    "year": 1939,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 102,
+    "moods": [
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-129",
+    "title": "Stardust",
+    "apiTitle": "Stardust",
+    "year": 2007,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Romance"
+    ],
+    "duration": 127,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-130",
+    "title": "The Shape of Water",
+    "apiTitle": "The Shape of Water",
+    "year": 2017,
+    "genres": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
+    "duration": 123,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-131",
+    "title": "Big Fish",
+    "apiTitle": "Big Fish",
+    "year": 2003,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Adventure"
+    ],
+    "duration": 125,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-132",
+    "title": "Edward Scissorhands",
+    "apiTitle": "Edward Scissorhands",
+    "year": 1990,
+    "genres": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
+    "duration": 105,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-133",
+    "title": "The Dark Crystal",
+    "apiTitle": "The Dark Crystal",
+    "year": 1982,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 93,
+    "moods": [
+      "düster",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-134",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "apiTitle": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "year": 2005,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 143,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-135",
+    "title": "The NeverEnding Story",
+    "apiTitle": "The NeverEnding Story",
+    "year": 1984,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "duration": 102,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-136",
+    "title": "Willow",
+    "apiTitle": "Willow",
+    "year": 1988,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "duration": 126,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-137",
+    "title": "The Green Knight",
+    "apiTitle": "The Green Knight",
+    "year": 2021,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 130,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-138",
+    "title": "A Chinese Ghost Story",
+    "apiTitle": "A Chinese Ghost Story",
+    "year": 1987,
+    "genres": [
+      "Fantasy",
+      "Romance",
+      "Horror"
+    ],
+    "duration": 98,
+    "moods": [
+      "romantisch",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-139",
+    "title": "The Secret of Kells",
+    "apiTitle": "The Secret of Kells",
+    "year": 2009,
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Adventure"
+    ],
+    "duration": 75,
+    "moods": [
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-140",
+    "title": "A Monster Calls",
+    "apiTitle": "A Monster Calls",
+    "year": 2016,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Family"
+    ],
+    "duration": 108,
+    "moods": [
+      "traurig",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-141",
+    "title": "Pride & Prejudice",
+    "apiTitle": "Pride & Prejudice",
+    "year": 2005,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 129,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-142",
+    "title": "Before Sunrise",
+    "apiTitle": "Before Sunrise",
+    "year": 1995,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 101,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-143",
+    "title": "Before Sunset",
+    "apiTitle": "Before Sunset",
+    "year": 2004,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 80,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-144",
+    "title": "When Harry Met Sally...",
+    "apiTitle": "When Harry Met Sally...",
+    "year": 1989,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 95,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-145",
+    "title": "Notting Hill",
+    "apiTitle": "Notting Hill",
+    "year": 1999,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 124,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-146",
+    "title": "La La Land",
+    "apiTitle": "La La Land",
+    "year": 2016,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Music"
+    ],
+    "duration": 128,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-147",
+    "title": "10 Things I Hate About You",
+    "apiTitle": "10 Things I Hate About You",
+    "year": 1999,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 97,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-148",
+    "title": "The Notebook",
+    "apiTitle": "The Notebook",
+    "year": 2004,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 123,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-149",
+    "title": "About Time",
+    "apiTitle": "About Time",
+    "year": 2013,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 123,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-150",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "apiTitle": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "genres": [
+      "Romance",
+      "Science-Fiction",
+      "Drama"
+    ],
+    "duration": 108,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-151",
+    "title": "Roman Holiday",
+    "apiTitle": "Roman Holiday",
+    "year": 1953,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 118,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-152",
+    "title": "The Big Sick",
+    "apiTitle": "The Big Sick",
+    "year": 2017,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 120,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-153",
+    "title": "Brooklyn",
+    "apiTitle": "Brooklyn",
+    "year": 2015,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 111,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-154",
+    "title": "Sleepless in Seattle",
+    "apiTitle": "Sleepless in Seattle",
+    "year": 1993,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 105,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-155",
+    "title": "Moonstruck",
+    "apiTitle": "Moonstruck",
+    "year": 1987,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 102,
+    "moods": [
+      "romantisch",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-156",
+    "title": "Atonement",
+    "apiTitle": "Atonement",
+    "year": 2007,
+    "genres": [
+      "Romance",
+      "Drama",
+      "War"
+    ],
+    "duration": 123,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-157",
+    "title": "Her",
+    "apiTitle": "Her",
+    "year": 2013,
+    "genres": [
+      "Romance",
+      "Science-Fiction",
+      "Drama"
+    ],
+    "duration": 126,
+    "moods": [
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-158",
+    "title": "The Holiday",
+    "apiTitle": "The Holiday",
+    "year": 2006,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 136,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-159",
+    "title": "Amélie",
+    "apiTitle": "Amélie",
+    "year": 2001,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 122,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-160",
+    "title": "Ever After",
+    "apiTitle": "Ever After",
+    "year": 1998,
+    "genres": [
+      "Romance",
+      "Fantasy",
+      "Drama"
+    ],
+    "duration": 121,
+    "moods": [
+      "romantisch",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-161",
+    "title": "Jurassic Park",
+    "apiTitle": "Jurassic Park",
+    "year": 1993,
+    "genres": [
+      "Adventure",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 127,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-162",
+    "title": "The Goonies",
+    "apiTitle": "The Goonies",
+    "year": 1985,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "duration": 114,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-163",
+    "title": "Life of Pi",
+    "apiTitle": "Life of Pi",
+    "year": 2012,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "duration": 127,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-164",
+    "title": "The Revenant",
+    "apiTitle": "The Revenant",
+    "year": 2015,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "duration": 157,
+    "moods": [
+      "düster",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-165",
+    "title": "The Secret Life of Walter Mitty",
+    "apiTitle": "The Secret Life of Walter Mitty",
+    "year": 2013,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 114,
+    "moods": [
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-166",
+    "title": "The Adventures of Tintin",
+    "apiTitle": "The Adventures of Tintin",
+    "year": 2011,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Action"
+    ],
+    "duration": 107,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-167",
+    "title": "The Mummy",
+    "apiTitle": "The Mummy",
+    "year": 1999,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-168",
+    "title": "The Adventures of Robin Hood",
+    "apiTitle": "The Adventures of Robin Hood",
+    "year": 1938,
+    "genres": [
+      "Adventure",
+      "Romance",
+      "Action"
+    ],
+    "duration": 102,
+    "moods": [
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-169",
+    "title": "The African Queen",
+    "apiTitle": "The African Queen",
+    "year": 1951,
+    "genres": [
+      "Adventure",
+      "Romance",
+      "Drama"
+    ],
+    "duration": 105,
+    "moods": [
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-170",
+    "title": "The Life Aquatic with Steve Zissou",
+    "apiTitle": "The Life Aquatic with Steve Zissou",
+    "year": 2004,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 119,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-171",
+    "title": "The Treasure of the Sierra Madre",
+    "apiTitle": "The Treasure of the Sierra Madre",
+    "year": 1948,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "duration": 126,
+    "moods": [
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-172",
+    "title": "The Jungle Book",
+    "apiTitle": "The Jungle Book",
+    "year": 2016,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ],
+    "duration": 106,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-173",
+    "title": "The Lost City of Z",
+    "apiTitle": "The Lost City of Z",
+    "year": 2016,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 141,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-174",
+    "title": "The Way",
+    "apiTitle": "The Way",
+    "year": 2010,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 121,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-175",
+    "title": "The Motorcycle Diaries",
+    "apiTitle": "The Motorcycle Diaries",
+    "year": 2004,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 126,
+    "moods": [
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-176",
+    "title": "The Darjeeling Limited",
+    "apiTitle": "The Darjeeling Limited",
+    "year": 2007,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 91,
+    "moods": [
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-177",
+    "title": "Thelma & Louise",
+    "apiTitle": "Thelma & Louise",
+    "year": 1991,
+    "genres": [
+      "Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-178",
+    "title": "The Last of the Mohicans",
+    "apiTitle": "The Last of the Mohicans",
+    "year": 1992,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 112,
+    "moods": [
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-179",
+    "title": "The Count of Monte Cristo",
+    "apiTitle": "The Count of Monte Cristo",
+    "year": 2002,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Drama"
+    ],
+    "duration": 131,
+    "moods": [
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-180",
+    "title": "The Man Who Would Be King",
+    "apiTitle": "The Man Who Would Be King",
+    "year": 1975,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 129,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-181",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "apiTitle": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 117,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-182",
+    "title": "Spirited Away",
+    "apiTitle": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "duration": 125,
+    "moods": [
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-183",
+    "title": "Toy Story",
+    "apiTitle": "Toy Story",
+    "year": 1995,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 81,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-184",
+    "title": "Finding Nemo",
+    "apiTitle": "Finding Nemo",
+    "year": 2003,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 100,
+    "moods": [
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-185",
+    "title": "Ratatouille",
+    "apiTitle": "Ratatouille",
+    "year": 2007,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "duration": 111,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-186",
+    "title": "Up",
+    "apiTitle": "Up",
+    "year": 2009,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 96,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-187",
+    "title": "Inside Out",
+    "apiTitle": "Inside Out",
+    "year": 2015,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "duration": 95,
+    "moods": [
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-188",
+    "title": "Coco",
+    "apiTitle": "Coco",
+    "year": 2017,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "duration": 105,
+    "moods": [
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-189",
+    "title": "The Incredibles",
+    "apiTitle": "The Incredibles",
+    "year": 2004,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 115,
+    "moods": [
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-190",
+    "title": "The Lion King",
+    "apiTitle": "The Lion King",
+    "year": 1994,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 88,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-191",
+    "title": "My Neighbor Totoro",
+    "apiTitle": "My Neighbor Totoro",
+    "year": 1988,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "duration": 86,
+    "moods": [
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-192",
+    "title": "Kiki's Delivery Service",
+    "apiTitle": "Kiki's Delivery Service",
+    "year": 1989,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "duration": 103,
+    "moods": [
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-193",
+    "title": "The Mitchells vs. the Machines",
+    "apiTitle": "The Mitchells vs. the Machines",
+    "year": 2021,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Science-Fiction"
+    ],
+    "duration": 110,
+    "moods": [
+      "lustig",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-194",
+    "title": "Shrek",
+    "apiTitle": "Shrek",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 90,
+    "moods": [
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-195",
+    "title": "Fantastic Mr. Fox",
+    "apiTitle": "Fantastic Mr. Fox",
+    "year": 2009,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 87,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-196",
+    "title": "Persepolis",
+    "apiTitle": "Persepolis",
+    "year": 2007,
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "duration": 96,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-197",
+    "title": "The Tale of the Princess Kaguya",
+    "apiTitle": "The Tale of the Princess Kaguya",
+    "year": 2013,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Drama"
+    ],
+    "duration": 137,
+    "moods": [
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-198",
+    "title": "Waltz with Bashir",
+    "apiTitle": "Waltz with Bashir",
+    "year": 2008,
+    "genres": [
+      "Animation",
+      "Drama",
+      "War"
+    ],
+    "duration": 90,
+    "moods": [
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-199",
+    "title": "The Triplets of Belleville",
+    "apiTitle": "The Triplets of Belleville",
+    "year": 2003,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 80,
+    "moods": [
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-200",
+    "title": "The Boy and the Heron",
+    "apiTitle": "The Boy and the Heron",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-201",
+    "title": "Rosemary's Baby",
+    "apiTitle": "Rosemary's Baby",
+    "year": 1968,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 138,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-202",
+    "title": "Repulsion",
+    "apiTitle": "Repulsion",
+    "year": 1965,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Horror"
+    ],
+    "duration": 105,
+    "moods": [
+      "entspannt",
+      "traurig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-203",
+    "title": "Space Jam",
+    "apiTitle": "Space Jam",
+    "year": 1996,
+    "genres": [
+      "Science-Fiction",
+      "Fantasy",
+      "Comedy",
+      "Animation"
+    ],
+    "duration": 87,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-204",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "apiTitle": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 140,
+    "moods": [
+      "romantisch",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-205",
+    "title": "Star Wars",
+    "apiTitle": "Star Wars",
+    "year": 1977,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 121,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-206",
+    "title": "Deadpool",
+    "apiTitle": "Deadpool",
+    "year": 2016,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 108,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-207",
+    "title": "Zombieland",
+    "apiTitle": "Zombieland",
+    "year": 2009,
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "duration": 88,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-208",
+    "title": "Lethal Weapon",
+    "apiTitle": "Lethal Weapon",
+    "year": 1987,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 110,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-209",
+    "title": "Mad Max",
+    "apiTitle": "Mad Max",
+    "year": 1979,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science-Fiction"
+    ],
+    "duration": 91,
+    "moods": [
+      "lustig",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-210",
+    "title": "The Time Machine",
+    "apiTitle": "The Time Machine",
+    "year": 1960,
+    "genres": [
+      "Thriller",
+      "Adventure",
+      "Fantasy",
+      "Science-Fiction",
+      "Romance"
+    ],
+    "duration": 103,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-211",
+    "title": "Marnie",
+    "apiTitle": "Marnie",
+    "year": 1964,
+    "genres": [
+      "Thriller",
+      "Romance"
+    ],
+    "duration": 130,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-212",
+    "title": "Foreign Correspondent",
+    "apiTitle": "Foreign Correspondent",
+    "year": 1940,
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "duration": 120,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-213",
+    "title": "Seven Samurai",
+    "apiTitle": "Seven Samurai",
+    "year": 1954,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "duration": 207,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-214",
+    "title": "The Empire Strikes Back",
+    "apiTitle": "The Empire Strikes Back",
+    "year": 1980,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-215",
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "apiTitle": "Star Wars: Episode I - The Phantom Menace",
+    "year": 1999,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 136,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-216",
+    "title": "Iron Man",
+    "apiTitle": "Iron Man",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Adventure"
+    ],
+    "duration": 126,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-217",
+    "title": "Inception",
+    "apiTitle": "Inception",
+    "year": 2010,
+    "genres": [
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 148,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-218",
+    "title": "Spider-Man: No Way Home",
+    "apiTitle": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 148,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-219",
+    "title": "The Great Dictator",
+    "apiTitle": "The Great Dictator",
+    "year": 1940,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 125,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-220",
+    "title": "Lady and the Tramp",
+    "apiTitle": "Lady and the Tramp",
+    "year": 1955,
+    "genres": [
+      "Animation",
+      "Romance",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 76,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-221",
+    "title": "Grease",
+    "apiTitle": "Grease",
+    "year": 1978,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "duration": 110,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-222",
+    "title": "Ghostbusters",
+    "apiTitle": "Ghostbusters",
+    "year": 1984,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 105,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-223",
+    "title": "Pulp Fiction",
+    "apiTitle": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Thriller",
+      "Comedy"
+    ],
+    "duration": 154,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-224",
+    "title": "Charlie and the Chocolate Factory",
+    "apiTitle": "Charlie and the Chocolate Factory",
+    "year": 2005,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 115,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-225",
+    "title": "Barbie",
+    "apiTitle": "Barbie",
+    "year": 2023,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 114,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-226",
+    "title": "Citizen Kane",
+    "apiTitle": "Citizen Kane",
+    "year": 1941,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 119,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-227",
+    "title": "Ben-Hur",
+    "apiTitle": "Ben-Hur",
+    "year": 1959,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "duration": 212,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-228",
+    "title": "Joker",
+    "apiTitle": "Joker",
+    "year": 2019,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 122,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-229",
+    "title": "Taxi Driver",
+    "apiTitle": "Taxi Driver",
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 114,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-230",
+    "title": "Blade Runner",
+    "apiTitle": "Blade Runner",
+    "year": 1982,
+    "genres": [
+      "Science-Fiction",
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 118,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-231",
+    "title": "Fight Club",
+    "apiTitle": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 139,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-232",
+    "title": "Inglourious Basterds",
+    "apiTitle": "Inglourious Basterds",
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 153,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-233",
+    "title": "Oppenheimer",
+    "apiTitle": "Oppenheimer",
+    "year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 181,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-234",
+    "title": "The Adventures of Ichabod and Mr. Toad",
+    "apiTitle": "The Adventures of Ichabod and Mr. Toad",
+    "year": 1949,
+    "genres": [
+      "Horror",
+      "Fantasy",
+      "Animation"
+    ],
+    "duration": 68,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-235",
+    "title": "Invasion of the Body Snatchers",
+    "apiTitle": "Invasion of the Body Snatchers",
+    "year": 1956,
+    "genres": [
+      "Science-Fiction",
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 80,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-236",
+    "title": "It",
+    "apiTitle": "It",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 135,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-237",
+    "title": "Dr. No",
+    "apiTitle": "Dr. No",
+    "year": 1962,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 110,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-238",
+    "title": "Alien",
+    "apiTitle": "Alien",
+    "year": 1979,
+    "genres": [
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 117,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-239",
+    "title": "Gremlins",
+    "apiTitle": "Gremlins",
+    "year": 1984,
+    "genres": [
+      "Fantasy",
+      "Horror",
+      "Comedy"
+    ],
+    "duration": 106,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-240",
+    "title": "The Devil's Advocate",
+    "apiTitle": "The Devil's Advocate",
+    "year": 1997,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "duration": 144,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-241",
+    "title": "A Quiet Place Part II",
+    "apiTitle": "A Quiet Place Part II",
+    "year": 2021,
+    "genres": [
+      "Science-Fiction",
+      "Thriller",
+      "Horror"
+    ],
+    "duration": 97,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-242",
+    "title": "Rope",
+    "apiTitle": "Rope",
+    "year": 1948,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 81,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-243",
+    "title": "Rear Window",
+    "apiTitle": "Rear Window",
+    "year": 1954,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 113,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-244",
+    "title": "I Am Legend",
+    "apiTitle": "I Am Legend",
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 101,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-245",
+    "title": "The Dark Knight Rises",
+    "apiTitle": "The Dark Knight Rises",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 165,
+    "moods": [
+      "traurig",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-246",
+    "title": "One Hundred and One Dalmatians",
+    "apiTitle": "One Hundred and One Dalmatians",
+    "year": 1961,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "duration": 79,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-247",
+    "title": "Predator",
+    "apiTitle": "Predator",
+    "year": 1987,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "duration": 107,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-248",
+    "title": "Se7en",
+    "apiTitle": "Se7en",
+    "year": 1995,
+    "genres": [
+      "Thriller"
+    ],
+    "duration": 127,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-249",
+    "title": "The Batman",
+    "apiTitle": "The Batman",
+    "year": 2022,
+    "genres": [
+      "Thriller"
+    ],
+    "duration": 177,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-250",
+    "title": "Frankenstein Meets the Wolf Man",
+    "apiTitle": "Frankenstein Meets the Wolf Man",
+    "year": 1943,
+    "genres": [
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 74,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-251",
+    "title": "The Day the Earth Stood Still",
+    "apiTitle": "The Day the Earth Stood Still",
+    "year": 1951,
+    "genres": [
+      "Science-Fiction",
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 92,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-252",
+    "title": "A Clockwork Orange",
+    "apiTitle": "A Clockwork Orange",
+    "year": 1971,
+    "genres": [
+      "Science-Fiction"
+    ],
+    "duration": 137,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-253",
+    "title": "Avatar",
+    "apiTitle": "Avatar",
+    "year": 2009,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 162,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-254",
+    "title": "The Avengers",
+    "apiTitle": "The Avengers",
+    "year": 2012,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 143,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-255",
+    "title": "Once Upon a Time in the West",
+    "apiTitle": "Once Upon a Time in the West",
+    "year": 1968,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 166,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-256",
+    "title": "Return of the Jedi",
+    "apiTitle": "Return of the Jedi",
+    "year": 1983,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 132,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-257",
+    "title": "Twelve Monkeys",
+    "apiTitle": "Twelve Monkeys",
+    "year": 1995,
+    "genres": [
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "duration": 129,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-258",
+    "title": "Avatar: The Way of Water",
+    "apiTitle": "Avatar: The Way of Water",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 192,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-259",
+    "title": "Pinocchio",
+    "apiTitle": "Pinocchio",
+    "year": 1940,
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "duration": 88,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-260",
+    "title": "Cinderella",
+    "apiTitle": "Cinderella",
+    "year": 1950,
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Romance"
+    ],
+    "duration": 74,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-261",
+    "title": "Monty Python and the Holy Grail",
+    "apiTitle": "Monty Python and the Holy Grail",
+    "year": 1975,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 91,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-262",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "apiTitle": "Harry Potter and the Philosopher's Stone",
+    "year": 2001,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 152,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-263",
+    "title": "Doctor Strange",
+    "apiTitle": "Doctor Strange",
+    "year": 2016,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "duration": 115,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-264",
+    "title": "Psycho",
+    "apiTitle": "Psycho",
+    "year": 1960,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 109,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-265",
+    "title": "Batman",
+    "apiTitle": "Batman",
+    "year": 1989,
+    "genres": [
+      "Fantasy",
+      "Action"
+    ],
+    "duration": 126,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-266",
+    "title": "Aladdin",
+    "apiTitle": "Aladdin",
+    "year": 1992,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "duration": 91,
+    "moods": [
+      "romantisch",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-267",
+    "title": "Soul",
+    "apiTitle": "Soul",
+    "year": 2020,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Fantasy"
+    ],
+    "duration": 101,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-268",
+    "title": "Casablanca",
+    "apiTitle": "Casablanca",
+    "year": 1943,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 102,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-269",
+    "title": "Singin' in the Rain",
+    "apiTitle": "Singin' in the Rain",
+    "year": 1952,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 103,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-270",
+    "title": "Manhattan",
+    "apiTitle": "Manhattan",
+    "year": 1979,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 96,
+    "moods": [
+      "romantisch",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-271",
+    "title": "The Curious Case of Benjamin Button",
+    "apiTitle": "The Curious Case of Benjamin Button",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "duration": 166,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-272",
+    "title": "Me Before You",
+    "apiTitle": "Me Before You",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 110,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-273",
+    "title": "Fahrenheit 451",
+    "apiTitle": "Fahrenheit 451",
+    "year": 1966,
+    "genres": [
+      "Drama",
+      "Science-Fiction"
+    ],
+    "duration": 113,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-274",
+    "title": "Top Gun",
+    "apiTitle": "Top Gun",
+    "year": 1986,
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 110,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-275",
+    "title": "Beauty and the Beast",
+    "apiTitle": "Beauty and the Beast",
+    "year": 1991,
+    "genres": [
+      "Romance",
+      "Animation",
+      "Fantasy"
+    ],
+    "duration": 84,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-276",
+    "title": "365 Days",
+    "apiTitle": "365 Days",
+    "year": 2020,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 114,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-277",
+    "title": "To Have and Have Not",
+    "apiTitle": "To Have and Have Not",
+    "year": 1945,
+    "genres": [
+      "Adventure",
+      "Romance"
+    ],
+    "duration": 100,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-278",
+    "title": "Alice in Wonderland",
+    "apiTitle": "Alice in Wonderland",
+    "year": 1951,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "duration": 75,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-279",
+    "title": "Superman",
+    "apiTitle": "Superman",
+    "year": 1978,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 144,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-280",
+    "title": "Harry Potter and the Goblet of Fire",
+    "apiTitle": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 157,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-281",
+    "title": "Avengers: Endgame",
+    "apiTitle": "Avengers: Endgame",
+    "year": 2019,
+    "genres": [
+      "Adventure",
+      "Science-Fiction",
+      "Action"
+    ],
+    "duration": 181,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-282",
+    "title": "Mary Poppins",
+    "apiTitle": "Mary Poppins",
+    "year": 1964,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 139,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-283",
+    "title": "Stand by Me",
+    "apiTitle": "Stand by Me",
+    "year": 1986,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "duration": 89,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-284",
+    "title": "Independence Day",
+    "apiTitle": "Independence Day",
+    "year": 1996,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 145,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-285",
+    "title": "Venom: Let There Be Carnage",
+    "apiTitle": "Venom: Let There Be Carnage",
+    "year": 2021,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 97,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-286",
+    "title": "Dumbo",
+    "apiTitle": "Dumbo",
+    "year": 1941,
+    "genres": [
+      "Animation"
+    ],
+    "duration": 64,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-287",
+    "title": "Peter Pan",
+    "apiTitle": "Peter Pan",
+    "year": 1953,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 77,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-288",
+    "title": "The Aristocats",
+    "apiTitle": "The Aristocats",
+    "year": 1970,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 78,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-289",
+    "title": "Ice Age",
+    "apiTitle": "Ice Age",
+    "year": 2002,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 81,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-290",
+    "title": "Zootopia",
+    "apiTitle": "Zootopia",
+    "year": 2016,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 109,
+    "moods": [
+      "spannend",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-291",
+    "title": "Breakfast at Tiffany's",
+    "apiTitle": "Breakfast at Tiffany's",
+    "year": 1961,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "duration": 115,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-292",
+    "title": "Grave of the Fireflies",
+    "apiTitle": "Grave of the Fireflies",
+    "year": 1988,
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "duration": 89,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-293",
+    "title": "Toy Story 2",
+    "apiTitle": "Toy Story 2",
+    "year": 1999,
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "duration": 92,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-294",
+    "title": "Encanto",
+    "apiTitle": "Encanto",
+    "year": 2021,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Fantasy"
+    ],
+    "duration": 102,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-295",
+    "title": "Twelve O'Clock High",
+    "apiTitle": "Twelve O'Clock High",
+    "year": 1949,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "duration": 132,
+    "moods": [
+      "traurig",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-296",
+    "title": "The War of the Worlds",
+    "apiTitle": "The War of the Worlds",
+    "year": 1953,
+    "genres": [
+      "Science-Fiction",
+      "Action"
+    ],
+    "duration": 85,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-297",
+    "title": "Rocky II",
+    "apiTitle": "Rocky II",
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "duration": 119,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-298",
+    "title": "Spider-Man",
+    "apiTitle": "Spider-Man",
+    "year": 2002,
+    "genres": [
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 121,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-299",
+    "title": "Captain America: Civil War",
+    "apiTitle": "Captain America: Civil War",
+    "year": 2016,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 147,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-300",
+    "title": "Goldfinger",
+    "apiTitle": "Goldfinger",
+    "year": 1964,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 110,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-301",
+    "title": "The Lost World: Jurassic Park",
+    "apiTitle": "The Lost World: Jurassic Park",
+    "year": 1997,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science-Fiction"
+    ],
+    "duration": 129,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-302",
+    "title": "Godzilla vs. Kong",
+    "apiTitle": "Godzilla vs. Kong",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Adventure"
+    ],
+    "duration": 114,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-303",
+    "title": "The Philadelphia Story",
+    "apiTitle": "The Philadelphia Story",
+    "year": 1940,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 113,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-304",
+    "title": "Gentlemen Prefer Blondes",
+    "apiTitle": "Gentlemen Prefer Blondes",
+    "year": 1953,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 91,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-305",
+    "title": "Willy Wonka & the Chocolate Factory",
+    "apiTitle": "Willy Wonka & the Chocolate Factory",
+    "year": 1971,
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "duration": 100,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-306",
+    "title": "Shrek 2",
+    "apiTitle": "Shrek 2",
+    "year": 2004,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "duration": 92,
+    "moods": [
+      "lustig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-307",
+    "title": "Deadpool 2",
+    "apiTitle": "Deadpool 2",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 120,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-308",
+    "title": "Dead Poets Society",
+    "apiTitle": "Dead Poets Society",
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 129,
+    "moods": [
+      "entspannt",
+      "traurig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-309",
+    "title": "The Sword in the Stone",
+    "apiTitle": "The Sword in the Stone",
+    "year": 1963,
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "duration": 79,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-310",
+    "title": "Men in Black",
+    "apiTitle": "Men in Black",
+    "year": 1997,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Science-Fiction"
+    ],
+    "duration": 98,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-311",
+    "title": "Sonic the Hedgehog",
+    "apiTitle": "Sonic the Hedgehog",
+    "year": 2020,
+    "genres": [
+      "Action",
+      "Science-Fiction",
+      "Comedy"
+    ],
+    "duration": 99,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-312",
+    "title": "Bambi",
+    "apiTitle": "Bambi",
+    "year": 1942,
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "duration": 70,
+    "moods": [
+      "romantisch",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-313",
+    "title": "The Bridge on the River Kwai",
+    "apiTitle": "The Bridge on the River Kwai",
+    "year": 1957,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 162,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-314",
+    "title": "Rocky",
+    "apiTitle": "Rocky",
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 120,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-315",
+    "title": "Cast Away",
+    "apiTitle": "Cast Away",
+    "year": 2000,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 143,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-316",
+    "title": "The Evil Dead",
+    "apiTitle": "The Evil Dead",
+    "year": 1983,
+    "genres": [
+      "Horror"
+    ],
+    "duration": 85,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-317",
+    "title": "Split",
+    "apiTitle": "Split",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 117,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-318",
+    "title": "You Only Live Twice",
+    "apiTitle": "You Only Live Twice",
+    "year": 1967,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "duration": 117,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-319",
+    "title": "Saving Private Ryan",
+    "apiTitle": "Saving Private Ryan",
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 169,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-320",
+    "title": "Luca",
+    "apiTitle": "Luca",
+    "year": 2021,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Drama",
+      "Comedy"
+    ],
+    "duration": 95,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-321",
+    "title": "The Wolf Man",
+    "apiTitle": "The Wolf Man",
+    "year": 1941,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "duration": 70,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-322",
+    "title": "Creature from the Black Lagoon",
+    "apiTitle": "Creature from the Black Lagoon",
+    "year": 1954,
+    "genres": [
+      "Adventure",
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 79,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-323",
+    "title": "The Texas Chain Saw Massacre",
+    "apiTitle": "The Texas Chain Saw Massacre",
+    "year": 1974,
+    "genres": [
+      "Horror"
+    ],
+    "duration": 83,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-324",
+    "title": "Shaun of the Dead",
+    "apiTitle": "Shaun of the Dead",
+    "year": 2004,
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "duration": 99,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-325",
+    "title": "Parasite",
+    "apiTitle": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 133,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-326",
+    "title": "Back to the Future Part II",
+    "apiTitle": "Back to the Future Part II",
+    "year": 1989,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Science-Fiction"
+    ],
+    "duration": 108,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-327",
+    "title": "The Apartment",
+    "apiTitle": "The Apartment",
+    "year": 1960,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 126,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-328",
+    "title": "Interview with the Vampire",
+    "apiTitle": "Interview with the Vampire",
+    "year": 1994,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Fantasy"
+    ],
+    "duration": 123,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-329",
+    "title": "The Conjuring: The Devil Made Me Do It",
+    "apiTitle": "The Conjuring: The Devil Made Me Do It",
+    "year": 2021,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "duration": 111,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-330",
+    "title": "Double Indemnity",
+    "apiTitle": "Double Indemnity",
+    "year": 1944,
+    "genres": [
+      "Thriller"
+    ],
+    "duration": 107,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-331",
+    "title": "North by Northwest",
+    "apiTitle": "North by Northwest",
+    "year": 1959,
+    "genres": [
+      "Thriller",
+      "Adventure"
+    ],
+    "duration": 137,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-332",
+    "title": "Dog Day Afternoon",
+    "apiTitle": "Dog Day Afternoon",
+    "year": 1975,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 124,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-333",
+    "title": "V for Vendetta",
+    "apiTitle": "V for Vendetta",
+    "year": 2006,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science-Fiction"
+    ],
+    "duration": 132,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-334",
+    "title": "Black Panther",
+    "apiTitle": "Black Panther",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 135,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-335",
+    "title": "Castle in the Sky",
+    "apiTitle": "Castle in the Sky",
+    "year": 1986,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Animation",
+      "Action"
+    ],
+    "duration": 125,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-336",
+    "title": "The Sound of Music",
+    "apiTitle": "The Sound of Music",
+    "year": 1965,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 174,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-337",
+    "title": "Fargo",
+    "apiTitle": "Fargo",
+    "year": 1996,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 98,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-338",
+    "title": "Bad Boys for Life",
+    "apiTitle": "Bad Boys for Life",
+    "year": 2020,
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "duration": 124,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-339",
+    "title": "House of Frankenstein",
+    "apiTitle": "House of Frankenstein",
+    "year": 1944,
+    "genres": [
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 71,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-340",
+    "title": "Godzilla",
+    "apiTitle": "Godzilla",
+    "year": 1954,
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 96,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-341",
+    "title": "Dawn of the Dead",
+    "apiTitle": "Dawn of the Dead",
+    "year": 1978,
+    "genres": [
+      "Horror",
+      "Science-Fiction"
+    ],
+    "duration": 127,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-342",
+    "title": "Spider-Man 3",
+    "apiTitle": "Spider-Man 3",
+    "year": 2007,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 139,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-343",
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "apiTitle": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 130,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-344",
+    "title": "Footloose",
+    "apiTitle": "Footloose",
+    "year": 1984,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 107,
+    "moods": [
+      "entspannt",
+      "traurig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-345",
+    "title": "From Russia with Love",
+    "apiTitle": "From Russia with Love",
+    "year": 1963,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "duration": 115,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-346",
+    "title": "Don't Look Up",
+    "apiTitle": "Don't Look Up",
+    "year": 2021,
+    "genres": [
+      "Comedy",
+      "Science-Fiction",
+      "Drama"
+    ],
+    "duration": 138,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-347",
+    "title": "Fantasia",
+    "apiTitle": "Fantasia",
+    "year": 1940,
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "duration": 124,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-348",
+    "title": "20,000 Leagues Under the Sea",
+    "apiTitle": "20,000 Leagues Under the Sea",
+    "year": 1954,
+    "genres": [
+      "Adventure",
+      "Science-Fiction",
+      "Fantasy"
+    ],
+    "duration": 127,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-349",
+    "title": "The Rescuers",
+    "apiTitle": "The Rescuers",
+    "year": 1977,
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Adventure"
+    ],
+    "duration": 78,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-350",
+    "title": "Harry Potter and the Half-Blood Prince",
+    "apiTitle": "Harry Potter and the Half-Blood Prince",
+    "year": 2009,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 153,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-351",
+    "title": "American Pie",
+    "apiTitle": "American Pie",
+    "year": 1999,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 95,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-352",
+    "title": "Call Me by Your Name",
+    "apiTitle": "Call Me by Your Name",
+    "year": 2017,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "duration": 132,
+    "moods": [
+      "entspannt",
+      "romantisch",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-353",
+    "title": "Rambo: First Blood Part II",
+    "apiTitle": "Rambo: First Blood Part II",
+    "year": 1985,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "duration": 96,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-354",
+    "title": "Barbarella",
+    "apiTitle": "Barbarella",
+    "year": 1968,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 98,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-355",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "apiTitle": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 132,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-356",
+    "title": "Notorious",
+    "apiTitle": "Notorious",
+    "year": 1946,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "duration": 103,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-357",
+    "title": "Sabrina",
+    "apiTitle": "Sabrina",
+    "year": 1954,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "duration": 114,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-358",
+    "title": "Harold and Maude",
+    "apiTitle": "Harold and Maude",
+    "year": 1971,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 92,
+    "moods": [
+      "traurig",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-359",
+    "title": "Corpse Bride",
+    "apiTitle": "Corpse Bride",
+    "year": 2005,
+    "genres": [
+      "Romance",
+      "Fantasy",
+      "Animation"
+    ],
+    "duration": 77,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-360",
+    "title": "The Hunger Games",
+    "apiTitle": "The Hunger Games",
+    "year": 2012,
+    "genres": [
+      "Science-Fiction",
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 142,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-361",
+    "title": "The Land Before Time",
+    "apiTitle": "The Land Before Time",
+    "year": 1988,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 69,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-362",
+    "title": "Mulan",
+    "apiTitle": "Mulan",
+    "year": 1998,
+    "genres": [
+      "Animation",
+      "Adventure"
+    ],
+    "duration": 88,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-363",
+    "title": "West Side Story",
+    "apiTitle": "West Side Story",
+    "year": 1961,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 153,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-364",
+    "title": "Elemental",
+    "apiTitle": "Elemental",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Romance"
+    ],
+    "duration": 102,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-365",
+    "title": "Sullivan's Travels",
+    "apiTitle": "Sullivan's Travels",
+    "year": 1941,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Adventure"
+    ],
+    "duration": 91,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-366",
+    "title": "The Wages of Fear",
+    "apiTitle": "The Wages of Fear",
+    "year": 1953,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Adventure"
+    ],
+    "duration": 154,
+    "moods": [
+      "entspannt",
+      "traurig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-367",
+    "title": "The Spy Who Loved Me",
+    "apiTitle": "The Spy Who Loved Me",
+    "year": 1977,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 125,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-368",
+    "title": "Ice Age: The Meltdown",
+    "apiTitle": "Ice Age: The Meltdown",
+    "year": 2006,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 91,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-369",
+    "title": "Big Hero 6",
+    "apiTitle": "Big Hero 6",
+    "year": 2014,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Action",
+      "Comedy"
+    ],
+    "duration": 102,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-370",
+    "title": "Platoon",
+    "apiTitle": "Platoon",
+    "year": 1986,
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "duration": 120,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-371",
+    "title": "Back to the Future Part III",
+    "apiTitle": "Back to the Future Part III",
+    "year": 1990,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Science-Fiction"
+    ],
+    "duration": 119,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-372",
+    "title": "Thunderball",
+    "apiTitle": "Thunderball",
+    "year": 1965,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 130,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-373",
+    "title": "Song of the South",
+    "apiTitle": "Song of the South",
+    "year": 1946,
+    "genres": [
+      "Animation"
+    ],
+    "duration": 94,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-374",
+    "title": "Animal Farm",
+    "apiTitle": "Animal Farm",
+    "year": 1954,
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "duration": 73,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-375",
+    "title": "The Castle of Cagliostro",
+    "apiTitle": "The Castle of Cagliostro",
+    "year": 1979,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 102,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-376",
+    "title": "The Wild Robot",
+    "apiTitle": "The Wild Robot",
+    "year": 2024,
+    "genres": [
+      "Animation",
+      "Science-Fiction",
+      "Adventure"
+    ],
+    "duration": 102,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-377",
+    "title": "Bruce Almighty",
+    "apiTitle": "Bruce Almighty",
+    "year": 2003,
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "duration": 101,
+    "moods": [
+      "romantisch",
+      "entspannt",
+      "spannend"
+    ]
+  },
+  {
+    "id": "mm-378",
+    "title": "Kingsman: The Secret Service",
+    "apiTitle": "Kingsman: The Secret Service",
+    "year": 2015,
+    "genres": [
+      "Comedy",
+      "Action"
+    ],
+    "duration": 129,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-379",
+    "title": "The Breakfast Club",
+    "apiTitle": "The Breakfast Club",
+    "year": 1985,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "duration": 98,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-380",
+    "title": "The Blair Witch Project",
+    "apiTitle": "The Blair Witch Project",
+    "year": 1999,
+    "genres": [
+      "Horror"
+    ],
+    "duration": 81,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-381",
+    "title": "Asterix the Gaul",
+    "apiTitle": "Asterix the Gaul",
+    "year": 1967,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "duration": 68,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-382",
+    "title": "Tarzan's New York Adventure",
+    "apiTitle": "Tarzan's New York Adventure",
+    "year": 1942,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "duration": 71,
+    "moods": [
+      "spannend",
+      "düster",
+      "lustig"
+    ]
+  },
+  {
+    "id": "mm-383",
+    "title": "The 7th Voyage of Sinbad",
+    "apiTitle": "The 7th Voyage of Sinbad",
+    "year": 1958,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "duration": 88,
+    "moods": [
+      "romantisch",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-384",
+    "title": "The Warriors",
+    "apiTitle": "The Warriors",
+    "year": 1979,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "duration": 94,
+    "moods": [
+      "traurig",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-385",
+    "title": "Eternals",
+    "apiTitle": "Eternals",
+    "year": 2021,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "duration": 156,
+    "moods": [
+      "traurig",
+      "spannend",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-386",
+    "title": "Poltergeist",
+    "apiTitle": "Poltergeist",
+    "year": 1982,
+    "genres": [
+      "Horror"
+    ],
+    "duration": 114,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-387",
+    "title": "Constantine",
+    "apiTitle": "Constantine",
+    "year": 2005,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Horror"
+    ],
+    "duration": 121,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-388",
+    "title": "It Chapter Two",
+    "apiTitle": "It Chapter Two",
+    "year": 2019,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 169,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-389",
+    "title": "Bad Boys",
+    "apiTitle": "Bad Boys",
+    "year": 1995,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Comedy"
+    ],
+    "duration": 119,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-390",
+    "title": "Harakiri",
+    "apiTitle": "Harakiri",
+    "year": 1962,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "duration": 135,
+    "moods": [
+      "entspannt",
+      "spannend",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-391",
+    "title": "The Shop Around the Corner",
+    "apiTitle": "The Shop Around the Corner",
+    "year": 1940,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 99,
+    "moods": [
+      "romantisch",
+      "lustig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-392",
+    "title": "Big Deal on Madonna Street",
+    "apiTitle": "Big Deal on Madonna Street",
+    "year": 1958,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 106,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-393",
+    "title": "The Twelve Tasks of Asterix",
+    "apiTitle": "The Twelve Tasks of Asterix",
+    "year": 1976,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 82,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-394",
+    "title": "Free Guy",
+    "apiTitle": "Free Guy",
+    "year": 2021,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "duration": 115,
+    "moods": [
+      "entspannt",
+      "lustig",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-395",
+    "title": "They Live",
+    "apiTitle": "They Live",
+    "year": 1988,
+    "genres": [
+      "Science-Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "duration": 93,
+    "moods": [
+      "spannend",
+      "entspannt",
+      "düster"
+    ]
+  },
+  {
+    "id": "mm-396",
+    "title": "American Psycho",
+    "apiTitle": "American Psycho",
+    "year": 2000,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "duration": 102,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-397",
+    "title": "Now You See Me",
+    "apiTitle": "Now You See Me",
+    "year": 2013,
+    "genres": [
+      "Thriller"
+    ],
+    "duration": 116,
+    "moods": [
+      "spannend",
+      "düster",
+      "traurig"
+    ]
+  },
+  {
+    "id": "mm-398",
+    "title": "Meet Joe Black",
+    "apiTitle": "Meet Joe Black",
+    "year": 1998,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": 178,
+    "moods": [
+      "romantisch",
+      "traurig",
+      "entspannt"
+    ]
+  },
+  {
+    "id": "mm-399",
+    "title": "Don't Look Now... We're Being Shot At!",
+    "apiTitle": "Don't Look Now... We're Being Shot At!",
+    "year": 1966,
+    "genres": [
+      "Comedy"
+    ],
+    "duration": 132,
+    "moods": [
+      "lustig",
+      "entspannt",
+      "romantisch"
+    ]
+  },
+  {
+    "id": "mm-400",
+    "title": "Bicycle Thieves",
+    "apiTitle": "Bicycle Thieves",
+    "year": 1948,
+    "genres": [
+      "Drama"
+    ],
+    "duration": 89,
+    "moods": [
+      "traurig",
+      "entspannt",
+      "romantisch"
+    ]
+  }
+]

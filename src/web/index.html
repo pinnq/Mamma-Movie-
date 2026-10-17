@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11130f">
+    <title>Mamma Movie! – Dein Vibe. Dein Film.</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+<main class="page-shell">
+    <header class="topbar">
+        <a class="wordmark" href="/" aria-label="Mamma Movie Startseite">
+            <span class="wordmark-icon" aria-hidden="true">M</span>
+            <span>MAMMA <span class="wordmark-light">MOVIE!</span></span>
+        </a>
+        <button id="reset-seen" class="text-button" type="button">Gesehene Filme zurücksetzen</button>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> DER FILMABEND BEGINNT HIER</p>
+            <h1 id="page-title">Dein Vibe.<br><span>Dein Film.</span></h1>
+            <p class="intro-copy">Was möchtest du heute sehen?<br>Wir finden einen Film, der zu dir passt.</p>
+        </div>
+        <div class="hero-mark" aria-hidden="true"><span>MM</span><i></i><i></i><i></i><i></i></div>
+        <div class="stats-row" aria-live="polite">
+            <div class="stat"><span id="total-count" class="stat-number">—</span><span>Filme im Katalog</span></div>
+            <span class="stat-divider"></span>
+            <div class="stat"><span id="seen-count" class="stat-number">—</span><span>Schon gesehen</span></div>
+            <span class="stat-divider"></span>
+            <div class="stat"><span id="unseen-count" class="stat-number">—</span><span>Noch offen</span></div>
+        </div>
+    </section>
+
+    <section class="picker panel" id="filter-panel" aria-labelledby="filter-title">
+        <div class="section-heading">
+            <div><span class="step-label">01 <span></span> DEIN GESCHMACK</span><h2 id="filter-title">Wonach ist dir?</h2></div>
+            <span class="section-note">Wähle, was heute passt</span>
+        </div>
+        <form id="movie-form">
+            <div class="form-grid">
+                <label class="field">
+                    <span class="field-label">Genre</span>
+                    <span class="select-wrap"><select id="genre" name="genre" required>
+                        <option value="" disabled selected>Genre auswählen</option>
+                    </select><span class="select-chevron" aria-hidden="true"></span></span>
+                </label>
+                <label class="field">
+                    <span class="field-label">Maximale Dauer</span>
+                    <span class="input-wrap"><input id="duration" name="duration" type="number" min="1" max="500" placeholder="z. B. 120" value="120" required><span class="input-suffix">Min.</span></span>
+                </label>
+                <label class="field">
+                    <span class="field-label">Stimmung</span>
+                    <span class="select-wrap"><select id="mood" name="mood" required>
+                        <option value="" disabled selected>Stimmung auswählen</option>
+                    </select><span class="select-chevron" aria-hidden="true"></span></span>
+                </label>
+            </div>
+            <div class="form-actions">
+                <button class="button button-primary find-button" type="submit"><span>Film finden</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+                <button id="surprise-button" class="button button-secondary find-button" type="button">Überrasch mich</button>
+                <button id="reset-filters" class="text-button reset-filters-button" type="button">Filter zurücksetzen</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="result-area" class="result-area" aria-live="polite" aria-atomic="true" hidden>
+        <div class="result-heading">
+            <span class="step-label">02 <span></span> DEIN MATCH</span>
+            <span id="result-counter" class="result-counter"></span>
+        </div>
+        <article id="movie-card" class="movie-card" hidden>
+            <div class="poster-frame">
+                <img id="movie-poster" class="poster-image" alt="" hidden>
+                <div id="poster-fallback" class="poster-fallback" aria-hidden="true"><span>MM</span><small>MAMMA MOVIE!</small></div>
+                <span id="year-badge" class="year-badge"></span>
+            </div>
+            <div class="movie-details">
+                <p class="match-label"><span class="sparkle" aria-hidden="true">✳</span> PASST ZU DEINEM VIBE</p>
+                <h2 id="movie-title"></h2>
+                <div id="movie-meta" class="movie-meta"></div>
+                <p id="movie-overview" class="movie-overview" hidden></p>
+                <p id="recommendation-reason" class="recommendation-reason"></p>
+                <div id="ratings-section" class="ratings-section" hidden>
+                    <p class="ratings-heading">BEWERTUNGEN</p>
+                    <div id="ratings-list" class="ratings-list"></div>
+                </div>
+                <p id="no-ratings" class="no-ratings" hidden>Für diesen Film sind keine externen Bewertungen verfügbar.</p>
+                <div id="providers-section" class="providers-section" hidden>
+                    <p class="ratings-heading">WO KANN ICH DEN FILM SEHEN?</p>
+                    <div id="providers-list" class="providers-list"></div>
+                    <a id="providers-source" class="provider-source" target="_blank" rel="noopener noreferrer" hidden>Verfügbarkeit via TMDB / JustWatch</a>
+                </div>
+                <p id="no-providers" class="no-ratings" hidden>Aktuell keine Streaming-Information für Österreich verfügbar.</p>
+            </div>
+        </article>
+        <div id="empty-state" class="empty-state" hidden>
+            <span class="empty-icon" aria-hidden="true">✳</span>
+            <div><h2 id="empty-title">Kein Film gefunden</h2><p id="empty-copy"></p></div>
+        </div>
+        <p id="error-message" class="error-message" role="alert" hidden></p>
+        <div class="result-actions">
+            <button id="seen-button" class="button button-seen" type="button" hidden><span class="check-icon" aria-hidden="true">✓</span> Schon gesehen</button>
+            <button id="favorite-button" class="button button-favorite" type="button" hidden>Zu Favoriten</button>
+            <button id="another-button" class="button button-primary" type="button" hidden><span>Noch einen Film</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+            <button id="change-filters" class="button button-secondary" type="button" hidden>Filter ändern</button>
+        </div>
+    </section>
+
+    <section id="favorites-section" class="favorites-section panel" aria-labelledby="favorites-title">
+        <div class="section-heading favorites-heading">
+            <div><span class="step-label">03 <span></span> DEINE SAMMLUNG</span><h2 id="favorites-title">Meine Favoriten</h2></div>
+            <span id="favorites-count" class="section-note">0 Favoriten</span>
+        </div>
+        <p id="favorites-empty" class="favorites-empty">Du hast noch keine Favoriten.</p>
+        <div id="favorites-grid" class="favorites-grid"></div>
+    </section>
+
+    <footer class="footer">
+        <span>Mit Liebe für deinen nächsten Filmabend.</span>
+        <span>Gesehen-Status bleibt nur in diesem Browser gespeichert.</span>
+        <div class="credits" aria-label="Datenquellen">
+            <a href="https://www.themoviedb.org" target="_blank" rel="noreferrer" aria-label="The Movie Database">
+                <img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="TMDB">
+            </a>
+        <span>This product uses the TMDB API but is not endorsed or certified by TMDB. Streamingdaten via JustWatch.</span>
+            <a href="https://www.omdbapi.com/" target="_blank" rel="noreferrer">Ratings by OMDb</a>
+        </div>
+    </footer>
+</main>
+<dialog id="seen-confirmation" class="confirmation-dialog" aria-labelledby="confirm-title">
+    <div class="dialog-mark" aria-hidden="true">✓</div>
+    <h2 id="confirm-title">Als gesehen markieren?</h2>
+    <p id="confirm-copy"></p>
+    <div class="dialog-actions"><button id="cancel-seen" class="button button-secondary" type="button">Abbrechen</button><button id="confirm-seen" class="button button-primary" type="button">Ja, gesehen</button></div>
+</dialog>
+</body>
+</html>
