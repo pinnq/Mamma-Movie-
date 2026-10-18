@@ -1,43 +1,49 @@
 # Coding-Agent-Anweisungen: Mamma Movie!
 
-## Projekt
+## Projekt und Betrieb
 
-Mamma Movie! ist eine Java-Web-App, die lokal oder öffentlich auf Render laufen kann. Das Backend verwendet Java 17, Maven, Jackson und den Java-`HttpServer`; das Frontend verwendet HTML, CSS und Vanilla JavaScript. JUnit 5 wird für Tests verwendet. Lokal ist Port 8080 der Standard; online wird `PORT` gelesen. Der Server muss auf `0.0.0.0` lauschen.
+Mamma Movie! ist eine Java-Web-App mit Browser-Frontend. Die öffentliche Render-Web-App ist unter <https://mamma-movie.onrender.com> erreichbar. Lokal wird sie aus IntelliJ IDEA gestartet und ist standardmäßig unter <http://localhost:8080> verfügbar. Für die Nutzung der öffentlichen Website benötigen Besucher keine Java-Installation oder IDE.
 
-## Struktur
+Das Backend verwendet Java 17, Maven, Jackson und den Java-`HttpServer`; das Frontend besteht aus HTML, CSS und Vanilla JavaScript. JUnit 5 wird für Tests verwendet. Der Server liest online den Port aus `PORT`, fällt lokal auf Port 8080 zurück und lauscht auf `0.0.0.0`.
 
-- `src/Main.java`: Einstiegspunkt, konfigurierbarer HTTP-Server und Routen (`/api/catalog`, `/api/stats`, `/api/recommend`, `/api/surprise`, `/api/watch-providers`). Liefert außerdem Webdateien, Manifest und Icons.
-- `src/Film.java`, `src/FilmSammlung.java`: Filmtyp, lokaler Katalog und Empfehlungs-/Filterlogik.
-- `src/FilmMetadaten.java`, `src/FilmBewertung.java`, `src/FilmWatchProvider.java`, `src/FilmMetadatenService.java`: optionale externe Filmdaten, Bewertungen, österreichische Anbieter und lokaler Metadaten-Cache.
-- `src/data/films.json`: lokale Filmsammlung mit 600 Filmen; bestehende 400 Filme und ihre IDs erhalten.
-- `src/web/index.html`, `src/web/styles.css`, `src/web/app.js`: Browseroberfläche und lokale Browserzustände.
-- `src/web/manifest.webmanifest`, `src/web/icons/`: PWA-Metadaten und lokale App-Icons; kein Service Worker.
-- `test/FilmSammlungTest.java`, `test/FilmMetadatenServiceTest.java`: Filter-, Katalog-, Cache-, API- und Fehlerfalltests.
-- `pom.xml`: Java-Version, Maven-Abhängigkeiten, Quellen- und Ressourcenstruktur.
-- `Dockerfile`, `render.yaml`, `.dockerignore`: Container-Build, Render Blueprint und Ausschluss lokaler Secrets aus dem Build-Kontext.
+## Projektstruktur
 
-## Backend und Frontend
+- `src/Main.java`: Programmeinstieg, HTTP-Server, API-Routen und Auslieferung der statischen Webdateien, des Manifests und der Icons.
+- `src/Film.java`, `src/FilmSammlung.java`: Filmtyp, lokaler Katalog sowie Filter- und Empfehlungslogik.
+- `src/FilmMetadaten.java`, `src/FilmBewertung.java`, `src/FilmWatchProvider.java`, `src/FilmMetadatenService.java`: externe Metadaten, Bewertungen, österreichische Anbieter und Cache.
+- `src/data/films.json`: lokaler Katalog mit 600 Filmen. Vorhandene Filme und ihre IDs bei Katalogänderungen erhalten.
+- `src/web/index.html`, `src/web/styles.css`, `src/web/app.js`: Browseroberfläche, responsive Darstellung und Browserzustände.
+- `src/web/manifest.webmanifest`, `src/web/icons/`: PWA-Manifest und App-Icons. Es gibt keinen Service Worker.
+- `test/FilmSammlungTest.java`, `test/FilmMetadatenServiceTest.java`: Tests für Katalog, Empfehlungen, Metadaten-Cache und API-Fallbacks.
+- `pom.xml`: Maven-Abhängigkeiten, Java-Version und Build-Konfiguration.
+- `Dockerfile`, `render.yaml`, `.dockerignore`: Render-Containerkonfiguration und Ausschlüsse für lokale Dateien.
 
-Der Browser lädt HTML, CSS, JavaScript, Manifest und Icons vom Java-Server. Die Filmfilter werden im Backend gegen `src/data/films.json` ausgewertet. Gesehene IDs und Favoriten werden unabhängig voneinander im Browser-`localStorage` je Browser/Gerät gehalten. Das Backend liefert Katalogstatistik, optionale TMDB-/OMDb-Metadaten und AT-Providerdaten an die Oberfläche. Für ältere Favoriten ohne gespeicherte Providerdaten verwendet das Frontend `/api/watch-providers?movieId=<lokale Film-ID>`.
+## Backend, Frontend und Datenfluss
 
-## Externe Dienste und Zugangsdaten
+Der Browser lädt Oberfläche und statische Dateien vom Java-Server. Filmfilter und Empfehlungen laufen im Backend gegen den lokalen JSON-Katalog. Die vorhandenen API-Routen bedienen Katalog, Statistik, Empfehlungen, Überraschung und österreichische Watch Provider. Gesehene Film-IDs (`mammaMovie.seenMovieIds`) und Favoriten (`mammaMovie.favoriteMovies`) liegen unabhängig voneinander im `localStorage` des jeweiligen Browsers und Geräts.
 
-- `TMDB_API_KEY` ist der serverseitige TMDB API Read Access Token. Er wird für Poster, Metadaten, Bewertungen von TMDB und Watch Providers für Region `AT` verwendet.
-- `OMDB_API_KEY` ist der optionale OMDb-Schlüssel für externe Ratings und gegebenenfalls Poster-Fallback.
-- Schlüssel ausschließlich über Umgebungsvariablen in der IntelliJ-Run-Konfiguration oder der lokalen Shell setzen. Niemals Schlüssel in JavaScript, HTML, CSS, versionierte Konfigurationsdateien oder Dokumentationsbeispiele mit echtem Wert schreiben.
-- `.mamma-movie-cache/metadata-cache.json` enthält lokale Cache-Daten und ist ignoriert. Keine Cache-Datei mit persönlichen oder geheimen Daten committen.
-- `render.yaml` enthält nur Variablennamen mit `sync: false`, keine Werte. Automatische Deployments sind ausgeschaltet; Veröffentlichung nicht ohne ausdrücklichen Auftrag aktivieren.
-- `.dockerignore` muss IntelliJ-Dateien, Cache, Build-Ausgabe und Env-Dateien vom Docker Build-Kontext ausschließen.
-- Externe Daten sind optional: API-Fehler dürfen lokale Filmempfehlungen nicht verhindern.
+TMDB liefert optionale Poster, Metadaten, Bewertungen und Watch Provider für Österreich (`AT`). Das Frontend darf nur Provider anzeigen, die das Backend von TMDB für diese Region erhält. Für bestehende Favoriten ohne gespeicherte Providerdaten kann es `/api/watch-providers?movieId=<lokale Film-ID>` verwenden. OMDb ist optional und liefert weitere Bewertungen. Externe Fehler dürfen Katalog und lokale Empfehlungen nicht verhindern.
 
-## Änderungsregeln
+## Environment Variables und Secrets
 
-- Bestehende Empfehlung, Filter, Favoriten, Gesehen-Status, Fallbacks und API-Routen erhalten; Funktionen nur mit konkretem Grund ändern oder entfernen.
+- `TMDB_API_KEY`: serverseitiger TMDB API Read Access Token für Metadaten und Provider.
+- `OMDB_API_KEY`: optionaler Schlüssel für zusätzliche Bewertungen.
+- Lokal werden die Variablen über IntelliJ Run Configuration oder Shell-Environment gesetzt. Online liegen sie als Render Environment Variables vor.
+- Niemals Schlüsselwerte in Quellcode, Web-Frontend, JSON-Katalog, Dokumentation oder Git schreiben. In Dokumentation nur Variablennamen nennen.
+- `.mamma-movie-cache/metadata-cache.json` enthält lokale Cache-Daten; keine Cache- oder privaten Konfigurationsdateien committen.
+- `.dockerignore` muss `.idea`, Cache, Build-Ausgaben und Env-Dateien aus dem Docker-Kontext heraushalten.
+
+## Render und PWA
+
+Die öffentliche App läuft unter <https://mamma-movie.onrender.com>. `render.yaml` und `Dockerfile` konfigurieren den Render Web Service. Serveränderungen müssen weiterhin `PORT` verwenden und an `0.0.0.0` binden. Änderungen an Deployment- oder Render-Service-Einstellungen nur im Rahmen eines ausdrücklichen Auftrags vornehmen; keine Secrets in Blueprint-Dateien eintragen. Die responsive Oberfläche und die PWA-Metadaten/Icons in den bestehenden Webdateien pflegen. Ein Offline-Service-Worker ist nicht implementiert.
+
+## Änderungs- und Testregeln
+
+- Bestehende Empfehlungslogik, Filter, Favoriten, Gesehen-Status, Fallbacks und API-Routen erhalten; nichts davon ohne konkreten Grund entfernen.
 - Keine neuen Frameworks, Datenbanken oder externen APIs ohne ausdrücklichen Projektauftrag hinzufügen.
-- Änderungen an der UI in den vorhandenen Dateien halten und die bestehende Struktur wiederverwenden.
-- Katalogänderungen in `src/data/films.json` vornehmen; eindeutige IDs und realistische Pflichtangaben sicherstellen.
-- Bei Katalogpflege alle bisherigen Filme behalten. Die 200 Ergänzungen sollen TMDB-geprüft und populär sein; Filterabdeckung für alle auswählbaren Genre-/Stimmungs-Kombinationen erhalten.
-- Nach Änderungen `mvn test` ausführen. Für einen vollständigen Build `mvn clean verify` verwenden. Bei Änderungen an `src/web/app.js` zusätzlich `node --check src/web/app.js` ausführen.
-- Änderungen an `README.md`, `features.md` und `agents.md` mit dem tatsächlichen Projektstand synchron halten.
-- Das Prompt Diary ist vom Nutzer verwaltet: nicht ersetzen, rekonstruieren, neu erstellen oder ohne ausdrücklichen Auftrag bearbeiten.
-- Keine Secrets, lokalen IntelliJ-Zugangsdaten oder unnötigen Cache-/Build-Dateien in die Dokumentation oder ins Git aufnehmen.
+- UI-Änderungen in `src/web/index.html`, `src/web/styles.css` und `src/web/app.js` halten.
+- Katalogänderungen in `src/data/films.json` vornehmen, alle bisherigen Filme behalten und eindeutige IDs sowie vollständige Pflichtdaten sicherstellen.
+- Nach Codeänderungen `mvn test` ausführen; für vollständige Prüfung `mvn clean verify`. Bei Änderungen an `src/web/app.js` zusätzlich `node --check src/web/app.js` ausführen.
+- `README.md`, `features.md` und `agents.md` mit dem tatsächlichen Projektstand synchron halten.
+- Das Prompt Diary gehört dem Nutzer: nicht überschreiben, löschen, rekonstruieren oder neu erstellen, außer der Nutzer beauftragt dies ausdrücklich.
+- Keine Secrets, lokalen IntelliJ-Zugangsdaten oder unnötigen Cache-/Build-Dateien dokumentieren oder einchecken.
