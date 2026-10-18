@@ -112,6 +112,7 @@ class FilmMetadatenServiceTest {
                     "test-tmdb", "");
 
             FilmMetadaten metadata = service.fuerFilmMitAnbietern(film);
+            assertTrue(metadata.isWatchProvidersLoaded());
             assertEquals("https://www.themoviedb.org/movie/99/watch", metadata.getWatchProvidersLink());
             assertEquals("https://image.tmdb.org/t/p/w92/joyn.png",
                     metadata.getWatchProviders().get("streaming").get(0).getLogoUrl());
@@ -147,6 +148,7 @@ class FilmMetadatenServiceTest {
             FilmMetadaten metadata = assertDoesNotThrow(() -> service.fuerFilm(film));
 
             assertNotNull(metadata);
+            assertFalse(metadata.isWatchProvidersLoaded());
             assertNull(metadata.getPosterUrl());
             assertTrue(metadata.getRatings().isEmpty());
             assertEquals(2, aufrufe.get());

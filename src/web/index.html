@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#11130f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Mamma Movie!">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Mamma Movie! – Dein Vibe. Dein Film.</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/icons/icon-180.png">
     <link rel="stylesheet" href="/styles.css">
     <script src="/app.js" defer></script>
 </head>
@@ -79,7 +85,7 @@
             </div>
             <div class="movie-details">
                 <p class="match-label"><span class="sparkle" aria-hidden="true">✳</span> PASST ZU DEINEM VIBE</p>
-                <h2 id="movie-title"></h2>
+                <div class="movie-title-row"><h2 id="movie-title"></h2><span id="movie-year-text" class="movie-year"></span></div>
                 <div id="movie-meta" class="movie-meta"></div>
                 <p id="movie-overview" class="movie-overview" hidden></p>
                 <p id="recommendation-reason" class="recommendation-reason"></p>
@@ -88,12 +94,18 @@
                     <div id="ratings-list" class="ratings-list"></div>
                 </div>
                 <p id="no-ratings" class="no-ratings" hidden>Für diesen Film sind keine externen Bewertungen verfügbar.</p>
+                <div id="movie-moods" class="movie-moods" aria-label="Stimmung"></div>
+                <div class="movie-card-actions">
+                    <button id="favorite-button" class="button button-favorite" type="button" hidden>Zu Favoriten</button>
+                    <button id="seen-button" class="button button-seen" type="button" hidden><span class="check-icon" aria-hidden="true">✓</span> Schon gesehen</button>
+                </div>
                 <div id="providers-section" class="providers-section" hidden>
                     <p class="ratings-heading">WO KANN ICH DEN FILM SEHEN?</p>
                     <div id="providers-list" class="providers-list"></div>
                     <a id="providers-source" class="provider-source" target="_blank" rel="noopener noreferrer" hidden>Verfügbarkeit via TMDB / JustWatch</a>
                 </div>
                 <p id="no-providers" class="no-ratings" hidden>Aktuell keine Streaming-Information für Österreich verfügbar.</p>
+                <button id="another-button" class="button button-primary movie-another-button" type="button" hidden><span>Noch einen Film</span><span class="button-arrow" aria-hidden="true">↗</span></button>
             </div>
         </article>
         <div id="empty-state" class="empty-state" hidden>
@@ -102,9 +114,6 @@
         </div>
         <p id="error-message" class="error-message" role="alert" hidden></p>
         <div class="result-actions">
-            <button id="seen-button" class="button button-seen" type="button" hidden><span class="check-icon" aria-hidden="true">✓</span> Schon gesehen</button>
-            <button id="favorite-button" class="button button-favorite" type="button" hidden>Zu Favoriten</button>
-            <button id="another-button" class="button button-primary" type="button" hidden><span>Noch einen Film</span><span class="button-arrow" aria-hidden="true">↗</span></button>
             <button id="change-filters" class="button button-secondary" type="button" hidden>Filter ändern</button>
         </div>
     </section>

@@ -1,0 +1,11 @@
+.git
+.idea
+*.iml
+target
+out
+.mamma-movie-cache
+.env
+*.env
+**/*.env
+**/workspace.xml
+*.log

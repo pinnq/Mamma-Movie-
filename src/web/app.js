@@ -23,6 +23,7 @@ let favoriteMovies = ladeFavoriten();
 let recentlySuggestedIds = [];
 let suggestionNumber = 0;
 let currentMovie = null;
+const favoriteProviderLoads = new Map();
 
 document.addEventListener("DOMContentLoaded", initialisiere);
 
@@ -213,13 +214,22 @@ async function findeFilm(mode = "filtered") {
 
 function zeigeFilm(film) {
     document.querySelector("#movie-title").textContent = film.title;
+    document.querySelector("#movie-year-text").textContent = String(film.year);
     document.querySelector("#year-badge").textContent = String(film.year);
     document.querySelector("#movie-meta").replaceChildren();
-    [...film.genres, `${film.duration} Minuten`, ...film.moods.map(kapitalisiere)].forEach((wert, index) => {
+    [...film.genres, `${film.duration} Minuten`].forEach((wert) => {
         const pill = document.createElement("span");
-        pill.className = index >= film.genres.length + 1 ? "meta-pill meta-pill-mood" : "meta-pill";
+        pill.className = "meta-pill";
         pill.textContent = wert;
         document.querySelector("#movie-meta").append(pill);
+    });
+    const moods = document.querySelector("#movie-moods");
+    moods.replaceChildren();
+    film.moods.map(kapitalisiere).forEach((mood) => {
+        const pill = document.createElement("span");
+        pill.className = "meta-pill meta-pill-mood";
+        pill.textContent = mood;
+        moods.append(pill);
     });
     const overview = document.querySelector("#movie-overview");
     overview.textContent = film.overview || "";
@@ -412,7 +422,7 @@ function schalteFavoritUm() {
     if (index >= 0) {
         favoriteMovies.splice(index, 1);
     } else {
-        const { watchProviders, recommendationReason, ...snapshot } = currentMovie;
+        const { recommendationReason, ...snapshot } = currentMovie;
         favoriteMovies.push(snapshot);
     }
     speichereFavoriten();
@@ -475,14 +485,92 @@ function zeigeFavoriten() {
             }).join(" · ");
             details.append(ratingText);
         }
+        const providers = document.createElement("div");
+        providers.className = "favorite-providers";
+        const providerHeading = document.createElement("h4");
+        providerHeading.textContent = "Streaming Österreich";
+        providers.append(providerHeading);
+        if (film.watchProviders?.loaded) {
+            zeigeFavoritenAnbieter(providers, film.watchProviders);
+        } else {
+            const loading = document.createElement("p");
+            loading.textContent = "Streaminginformationen werden geladen …";
+            providers.append(loading);
+            ladeFavoritenAnbieter(film.id).then((watchProviders) => {
+                const gespeicherterFilm = favoriteMovies.find((eintrag) => eintrag.id === film.id);
+                if (watchProviders.loaded && gespeicherterFilm) {
+                    gespeicherterFilm.watchProviders = watchProviders;
+                    speichereFavoriten();
+                    zeigeFavoriten();
+                } else if (providers.isConnected) {
+                    zeigeFavoritenAnbieter(providers, { categories: {} });
+                }
+            });
+        }
         const remove = document.createElement("button");
         remove.className = "favorite-remove";
         remove.type = "button";
         remove.textContent = "Entfernen";
         remove.setAttribute("aria-label", `${film.title} aus Favoriten entfernen`);
         remove.addEventListener("click", () => entferneFavorit(film.id));
-        card.append(poster, details, remove);
+        card.append(poster, details, remove, providers);
         grid.append(card);
+    });
+}
+
+function ladeFavoritenAnbieter(movieId) {
+    if (favoriteProviderLoads.has(movieId)) return favoriteProviderLoads.get(movieId);
+    const request = fetch(`/api/watch-providers?movieId=${encodeURIComponent(movieId)}`)
+        .then((response) => response.ok ? response.json() : null)
+        .then((answer) => answer?.watchProviders || { loaded: false, categories: {} })
+        .catch(() => ({ loaded: false, categories: {} }))
+        .finally(() => favoriteProviderLoads.delete(movieId));
+    favoriteProviderLoads.set(movieId, request);
+    return request;
+}
+
+function zeigeFavoritenAnbieter(container, watchProviders) {
+    const labels = { streaming: "Streaming", free: "Kostenlos", ads: "Mit Werbung", rent: "Leihen", buy: "Kaufen" };
+    const categories = watchProviders.categories || {};
+    const groups = Object.entries(labels).filter(([key]) => Array.isArray(categories[key]) && categories[key].length > 0);
+    container.querySelectorAll(".favorite-provider-group, .favorite-provider-empty").forEach((element) => element.remove());
+    if (groups.length === 0) {
+        const empty = document.createElement("p");
+        empty.className = "favorite-provider-empty";
+        empty.textContent = "Aktuell keine Streaming-Information für Österreich verfügbar.";
+        container.append(empty);
+        return;
+    }
+    const link = sichereTmdbLink(watchProviders.link);
+        groups.forEach(([key, label]) => {
+        const group = document.createElement("div");
+        group.className = "favorite-provider-group";
+        const category = document.createElement("span");
+        category.textContent = `${label}: `;
+        group.append(category);
+        categories[key].forEach((provider, index) => {
+            if (index > 0) group.append(document.createTextNode(", "));
+            const logoUrl = sichereTmdbBildUrl(provider.logoUrl);
+            if (logoUrl) {
+                const logo = document.createElement("img");
+                logo.className = "favorite-provider-logo";
+                logo.src = logoUrl;
+                logo.alt = "";
+                logo.loading = "lazy";
+                logo.onerror = () => logo.remove();
+                group.append(logo);
+                group.append(document.createTextNode(" "));
+            }
+            const name = link ? document.createElement("a") : document.createElement("span");
+            name.textContent = provider.name;
+            if (link) {
+                name.href = link;
+                name.target = "_blank";
+                name.rel = "noopener noreferrer";
+            }
+            group.append(name);
+        });
+        container.append(group);
     });
 }
 

@@ -9,16 +9,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FilmSammlungTest {
     @Test
-    void katalogHat400GueltigeFilmeAusAllenZehnGenresUndGuteFilterabdeckung() {
+    void katalogHat600GueltigeFilmeAusAllenZehnGenresUndGuteFilterabdeckung() {
         FilmSammlung sammlung = new FilmSammlung();
         List<Film> filme = sammlung.getFilme();
 
-        assertEquals(400, filme.size());
-        assertEquals(400, filme.stream().map(Film::getId).collect(Collectors.toSet()).size());
-        assertEquals(400, filme.stream().map(film -> normalisiere(film.getTitle())).collect(Collectors.toSet()).size());
+        assertEquals(600, filme.size());
+        assertEquals(600, filme.stream().map(Film::getId).collect(Collectors.toSet()).size());
+        assertEquals(600, filme.stream().map(film -> normalisiere(film.getTitle())).collect(Collectors.toSet()).size());
         assertTrue(filme.stream().allMatch(film -> film.getYear() >= 1888 && film.getYear() <= 2100));
         assertTrue(filme.stream().allMatch(film -> film.getDuration() >= 30 && film.getDuration() <= 400));
         assertTrue(filme.stream().allMatch(film -> !film.getGenres().isEmpty() && !film.getMoods().isEmpty()));
+        List<Film> ergaenzungen = filme.subList(400, 600);
+        assertTrue(ergaenzungen.stream().filter(film -> film.getYear() >= 2010).count() >= 140);
+        assertTrue(ergaenzungen.stream().filter(film -> film.getYear() < 2010).count() >= 60);
+        assertTrue(ergaenzungen.stream().filter(film -> film.getYear() >= 2020).count() >= 40);
 
         Set<String> hauptGenres = Set.of("Action", "Comedy", "Drama", "Horror", "Thriller",
                 "Science-Fiction", "Fantasy", "Romance", "Adventure", "Animation");
@@ -28,7 +32,7 @@ class FilmSammlungTest {
         Set<String> stimmungen = Set.of("lustig", "spannend", "traurig", "entspannt", "düster", "romantisch");
         for (String genre : hauptGenres) {
             for (String stimmung : stimmungen) {
-                assertTrue(sammlung.findeAllePassendenFilme(genre, 240, stimmung).size() >= 3,
+                assertTrue(sammlung.findeAllePassendenFilme(genre, 150, stimmung).size() >= 3,
                         () -> "Zu wenige Treffer für " + genre + " / " + stimmung);
             }
         }

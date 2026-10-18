@@ -93,6 +93,9 @@ public class FilmMetadatenService {
         }
         long jetzt = System.currentTimeMillis();
         if (jetzt - eintrag.getWatchProvidersFetchedAt() < WATCH_PROVIDER_CACHE_MILLIS) {
+            if (eintrag.getWatchProvidersFetchedAt() > 0) {
+                metadaten.setWatchProvidersLoaded(true);
+            }
             return metadaten;
         }
 
@@ -117,6 +120,7 @@ public class FilmMetadatenService {
                 }
             });
             metadaten.setWatchProviders(anbieter);
+            metadaten.setWatchProvidersLoaded(true);
             eintrag.setMetadaten(metadaten);
             eintrag.setWatchProvidersFetchedAt(jetzt);
             speichereCache();

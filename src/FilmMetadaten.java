@@ -17,6 +17,7 @@ public class FilmMetadaten {
     private List<FilmBewertung> ratings = new ArrayList<>();
     private String watchProvidersLink;
     private Map<String, List<FilmWatchProvider>> watchProviders = new LinkedHashMap<>();
+    private boolean watchProvidersLoaded;
 
     public String getPosterUrl() { return posterUrl; }
     public void setPosterUrl(String posterUrl) { this.posterUrl = posterUrl; }
@@ -44,4 +45,6 @@ public class FilmMetadaten {
     public void setWatchProviders(Map<String, List<FilmWatchProvider>> watchProviders) {
         this.watchProviders = watchProviders == null ? new LinkedHashMap<>() : new LinkedHashMap<>(watchProviders);
     }
+    public boolean isWatchProvidersLoaded() { return watchProvidersLoaded; }
+    public void setWatchProvidersLoaded(boolean watchProvidersLoaded) { this.watchProvidersLoaded = watchProvidersLoaded; }
 }

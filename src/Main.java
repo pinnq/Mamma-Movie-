@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 /** Startpunkt der lokalen Webanwendung Mamma Movie! */
 public class Main {
-    private static final int PORT = 8080;
+    private static final int DEFAULT_PORT = 8080;
     private static final List<String> GENRES = List.of(
             "Action", "Comedy", "Drama", "Horror", "Thriller", "Science-Fiction",
             "Fantasy", "Romance", "Adventure", "Animation");
@@ -30,11 +30,12 @@ public class Main {
     public static void main(String[] args) throws IOException {
         FilmSammlung sammlung = new FilmSammlung();
         FilmMetadatenService metadatenService = new FilmMetadatenService();
-        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", PORT), 0);
+        int port = lesePort();
+        HttpServer server = HttpServer.create(new InetSocketAddress("0.0.0.0", port), 0);
         server.setExecutor(Executors.newFixedThreadPool(8));
         server.createContext("/", exchange -> bearbeiteAnfrage(exchange, sammlung, metadatenService));
         server.start();
-        System.out.println("Mamma Movie! läuft unter http://localhost:" + PORT);
+        System.out.println("Mamma Movie! läuft auf Port " + port);
         if (System.getenv("TMDB_API_KEY") == null || System.getenv("TMDB_API_KEY").isBlank()) {
             System.out.println("TMDB_API_KEY ist nicht gesetzt. Poster und externe Metadaten bleiben optional.");
         }
@@ -51,6 +52,7 @@ public class Main {
             case "/api/stats" -> antworteStatistik(exchange, sammlung);
             case "/api/recommend" -> bearbeiteEmpfehlung(exchange, sammlung, metadatenService);
             case "/api/surprise" -> bearbeiteUeberraschung(exchange, sammlung, metadatenService);
+            case "/api/watch-providers" -> liefereWatchProviders(exchange, sammlung, metadatenService);
             default -> liefereWebdatei(exchange, pfad);
         }
     }
@@ -70,6 +72,26 @@ public class Main {
             case "/app.js" -> {
                 dateiname = "app.js";
                 inhaltstyp = "text/javascript; charset=utf-8";
+            }
+            case "/manifest.webmanifest" -> {
+                dateiname = "manifest.webmanifest";
+                inhaltstyp = "application/manifest+json; charset=utf-8";
+            }
+            case "/favicon.svg", "/icons/app-icon.svg" -> {
+                dateiname = "icons/app-icon.svg";
+                inhaltstyp = "image/svg+xml; charset=utf-8";
+            }
+            case "/icons/icon-180.png" -> {
+                dateiname = "icons/icon-180.png";
+                inhaltstyp = "image/png";
+            }
+            case "/icons/icon-192.png" -> {
+                dateiname = "icons/icon-192.png";
+                inhaltstyp = "image/png";
+            }
+            case "/icons/icon-512.png" -> {
+                dateiname = "icons/icon-512.png";
+                inhaltstyp = "image/png";
             }
             default -> {
                 antworte(exchange, 404, "text/plain; charset=utf-8", "Seite nicht gefunden.");
@@ -107,6 +129,24 @@ public class Main {
         json.put("seenMovies", geseheneFilme);
         json.put("unseenMovies", sammlung.getAnzahlFilme() - geseheneFilme);
         antworteJson(exchange, 200, json);
+    }
+
+    private static void liefereWatchProviders(HttpExchange exchange, FilmSammlung sammlung,
+                                               FilmMetadatenService metadatenService) throws IOException {
+        if (!getAnfrage(exchange)) return;
+        Map<String, String> parameter = liesParameter(exchange.getRequestURI().getRawQuery());
+        String filmId = parameter.getOrDefault("movieId", "");
+        Film film = sammlung.getFilme().stream()
+                .filter(eintrag -> eintrag.getId().equals(filmId))
+                .findFirst().orElse(null);
+        if (film == null) {
+            antworteFehler(exchange, 404, "Der Film wurde im lokalen Katalog nicht gefunden.");
+            return;
+        }
+        FilmMetadaten metadaten = metadatenService.fuerFilmMitAnbietern(film);
+        ObjectNode antwort = JSON.createObjectNode();
+        antwort.set("watchProviders", baueWatchProviderAntwort(metadaten));
+        antworteJson(exchange, 200, antwort);
     }
 
     private static void bearbeiteEmpfehlung(HttpExchange exchange, FilmSammlung sammlung,
@@ -225,7 +265,13 @@ public class Main {
                 rating.put("category", bewertung.getCategory());
             }
         }
+        json.set("watchProviders", baueWatchProviderAntwort(metadaten));
+        return json;
+    }
+
+    private static ObjectNode baueWatchProviderAntwort(FilmMetadaten metadaten) {
         ObjectNode watchProviders = JSON.createObjectNode();
+        watchProviders.put("loaded", metadaten.isWatchProvidersLoaded());
         if (metadaten.getWatchProvidersLink() != null && !metadaten.getWatchProvidersLink().isBlank()) {
             watchProviders.put("link", metadaten.getWatchProvidersLink());
         }
@@ -238,8 +284,19 @@ public class Main {
                 anbieterJson.put("logoUrl", eintrag.getLogoUrl());
             }
         });
-        json.set("watchProviders", watchProviders);
-        return json;
+        return watchProviders;
+    }
+
+    private static int lesePort() {
+        String wert = System.getenv("PORT");
+        if (wert == null || wert.isBlank()) return DEFAULT_PORT;
+        try {
+            int port = Integer.parseInt(wert.trim());
+            if (port < 1 || port > 65535) throw new IllegalArgumentException("PORT muss zwischen 1 und 65535 liegen.");
+            return port;
+        } catch (NumberFormatException exception) {
+            throw new IllegalArgumentException("PORT muss eine gültige Zahl sein.", exception);
+        }
     }
 
     private static Set<String> liesIdArray(JsonNode array) {
