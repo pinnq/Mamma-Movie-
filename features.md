@@ -2,7 +2,7 @@
 
 Die Liste beschreibt die aktuell implementierte lokale und öffentliche Web-App.
 
-1. **Genre-Filter:** Auswahl aus den unterstützten Filmgenres.
+1. [x] **Genre-Filter:** Auswahl aus den unterstützten Filmgenres.
 2. **Laufzeitfilter:** Maximale Filmdauer in Minuten angeben.
 3. **Stimmungsfilter:** Filme passend zu einer gewünschten Stimmung auswählen.
 4. **Filmempfehlung:** Das Backend sucht im lokalen Katalog nach Filmen, die alle gesetzten Filter erfüllen.
